@@ -1106,7 +1106,7 @@ xf86VideoPtrToDriverList(struct pci_device *dev, XF86MatchedDrivers *md)
         driverList[0] = "ast";
         break;
     case 0x1002:
-        driverList[0] = "ati";
+        driverList[0] = "radeon";
         break;
     case 0x102c:
         driverList[0] = "chips";
